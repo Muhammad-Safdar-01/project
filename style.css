@@ -1,0 +1,67 @@
+  *{
+            margin: 0px;
+            color:white;
+        }
+        .nav{
+            background-color:rgba(160, 127, 100, 0.253);
+            display:flex;
+            padding:20px;
+            justify-content:space-between;
+            border-radius:20px;
+            
+        }
+        .logo{
+            font-size:30px;
+            padding-left: 50px;
+        }
+        .nav ul{
+            display:flex;
+            
+        }
+        li{
+            list-style: none;
+            
+        }
+        .nav li a{
+            text-decoration: none;
+             font-size:30px;
+             margin:0 20px;
+        }
+      .nav ul li  :hover{
+            color:black;
+
+        }
+        body{
+            background-image: url(1.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .contanor{
+            display: flex;
+            justify-content: center;
+            padding-top:20px;
+        }
+        .box{
+            text-align: center;
+            background-color:rgba(160, 127, 100, 0.253);
+            margin:0 20px;
+            padding:100px;
+ 
+        }
+        
+        .services-box{
+             text-align: center;
+            content:justify;
+            margin:0 20px;
+            padding:100px;
+            background-position: center;
+            width:400px;
+            height: 200px;
+            background-size: cover;
+        }
+        .footer{
+            background-color:rgba(160, 127, 100, 0.253) ;
+            margin-top:20px;
+            padding:20px;
+            text-align: center;
+        }
